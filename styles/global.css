@@ -29,6 +29,8 @@ html{
 }
 
 body{
+    display: flex;
+    
     height: 100vh; /*view height -- view port*/
     background: var(--background);
 }
