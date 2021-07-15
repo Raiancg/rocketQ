@@ -1,0 +1,30 @@
+{
+  "name": "RocketQ",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido na semana NLW Rocketseat, na missão Discovery",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raiancg/rocketQ.git"
+  },
+  "keywords": [],
+  "author": "Elivelton Gomes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raiancg/rocketQ/issues"
+  },
+  "homepage": "https://github.com/Raiancg/rocketQ#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
